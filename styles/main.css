@@ -1,14 +1,32 @@
-@import "navbar.css" content;
+@import url(navbar.css) content;
 @layer base, content;
 
-@font-face {
-    font-family: "Tiny5";
-    src: url("/assets/fonts/Tiny5.ttf") format("truetype");
-}
-
 @layer base {
+
+    @font-face {
+        font-family: "Tiny5";
+        src: url(/assets/fonts/Tiny5.ttf) format("truetype");
+    }
+
+    :root {
+        --core: #11111b;
+        --text: #cdd6f4;
+    }
+
     * {
         box-sizing: border-box;
+        color: var(--text);
+    }
+
+    body {
+        min-height: 100vh;
+        background-color: var(--core);
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-family: Tiny5, sans-serif;
     }
 
     .container {
@@ -17,6 +35,15 @@
         margin-right: auto;
         margin-left: auto;
         width: 100%;
+    }
+
+    .box {
+        border: 0.5rem dashed var(--text)
+    }
+
+    #main {
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     @media(min-width: 1024px) {
