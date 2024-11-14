@@ -28,6 +28,8 @@
         background-color: var(--core);
         font-family: Montserrat, sans-serif;
         background-image: url(/assets/images/bg.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
     }
 
     h1, h2, h3, h4, h5, h6 {
