@@ -35,6 +35,10 @@
         font-family: Tiny5, sans-serif;
     }
 
+    p {
+        margin-top: 0;
+    }
+
     .container {
         padding-right: 15px;
         padding-left: 15px;
