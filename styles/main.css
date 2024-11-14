@@ -1,0 +1,33 @@
+@import "navbar.css" content;
+@layer base, content;
+
+@font-face {
+    font-family: "Tiny5";
+    src: url("/assets/fonts/Tiny5.ttf") format("truetype");
+}
+
+@layer base {
+    * {
+        box-sizing: border-box;
+    }
+
+    .container {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    @media(min-width: 1024px) {
+        .container {
+            max-width: 1200px;
+        }
+    }
+
+    @media(min-width: 1440px) {
+        .container {
+            max-width: 1600px;
+        }
+    }
+}
