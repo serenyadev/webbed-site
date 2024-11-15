@@ -29,6 +29,13 @@
 
 .nav-item {
     color: var(--text);
-    padding: 2.5rem 1.5rem;
+    padding: 2rem 1rem;
+    border: .5rem solid transparent;
+    transition: border-color 0.15s ease;
 }
 
+.nav-item:hover {
+    text-decoration: none !important;
+    color: var(--text) !important;
+    border-color: var(--text);
+}
