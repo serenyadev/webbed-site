@@ -57,13 +57,20 @@ p {
     padding-top: 6rem
 }
 
-.nav-spacer {
-    height: 4rem;
-    width: 100%;
-}
-
 @media(min-width: 1200px) {
     .container {
         max-width: 720px;
+    }
+}
+
+@media(min-width: 1440px) {
+    .container {
+        max-width: 840px;
+    }
+}
+
+@media(min-width: 1600px) {
+    .container {
+        max-width: 960px;
     }
 }
