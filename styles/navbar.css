@@ -9,7 +9,7 @@
 }
 
 .navbar * {
-    font-family: Tiny5, sans-serif;
+    font-family: Tiny5, serif;
     font-weight: 600;
     text-rendering: geometricPrecision;
     -moz-osx-font-smoothing: grayscale;
@@ -25,6 +25,7 @@
 
 .nav-item, .nav-item:visited {
     color: var(--text);
+    font-size: large;
     padding: 1rem 2.5rem;
     border: .25rem dashed transparent;
     transition: border-color 0.2s ease-in-out;
