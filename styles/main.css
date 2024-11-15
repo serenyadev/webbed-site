@@ -1,4 +1,4 @@
-@import url(navbar.css) content;
+@import url(navbar.css);
 @layer base, content;
 
 @layer base {
