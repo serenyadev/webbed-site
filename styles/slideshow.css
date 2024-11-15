@@ -23,6 +23,11 @@
 
 .slideshow-item {
     position: relative;
+    display: none;
+}
+
+.slideshow-item.active {
+    display: block;
 }
 
 .slideshow-next, .slideshow-prev {
