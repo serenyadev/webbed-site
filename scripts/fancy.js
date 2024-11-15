@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    for (let button in document.getElementsByClassName("slideshow_next")) {
+    for (let button in document.getElementsByClassName("slideshow-next")) {
         button.onclick = event => {
             let slideshow = document.getElementById(button.getAttribute("target"));
             let active, next = null, nextActive;
