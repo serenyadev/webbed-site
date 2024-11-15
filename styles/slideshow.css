@@ -1,0 +1,52 @@
+@keyframes slideshow-left {
+    from {
+        left: 0;
+    }
+    to {
+        left: -50%;
+    }
+}
+
+@keyframes slideshow-right {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 50%;
+    }
+}
+
+.slideshow {
+    position: relative;
+}
+
+.slideshow-item {
+    position: relative;
+}
+
+.slideshow-next, .slideshow-prev {
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    width: 3rem;
+}
+
+.slideshow-prev {
+    left: 0;
+    right: auto;
+}
+
+.slideshow-next {
+    left: auto;
+    right: 0;
+}
+
+.slideshow-prev::after {
+    content: "<";
+}
+
+.slideshow-next::after {
+    content: ">";
+}

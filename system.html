@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/styles/main.css">
+        <link rel="stylesheet" href="/styles/slideshow.css">
+        <script src="/scripts/fancy.js"></script>
     </head>
     <body dir="ltr">
         <div class="navbar">
@@ -18,7 +20,13 @@
         </div>
         <div id="main">
             <div class="box container">
-                <h1>WIP</h1>
+                <div id="system" class="slideshow">
+                    <a class="slideshow-next" href="#" target="system"></a>
+                    <a class="slideshow-prev" href="#" target="system"></a>
+                    <div class="slideshow-item active">A</div>
+                    <div class="slideshow-item">B</div>
+                    <div class="slideshow-item">C</div>
+                </div>
             </div>
         </div>
     </body>

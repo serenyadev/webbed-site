@@ -31,7 +31,7 @@ p {
 a, a:visited {
     text-decoration: none;
     color: var(--mauve);
-    transition: color 0.2s ease;
+    transition: color 0.2s ease-in-out;
 }
 
 a:hover {
