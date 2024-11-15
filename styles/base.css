@@ -15,6 +15,17 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#footer {
+    margin-top: auto;
+}
+
+#main {
+    padding-top: 6rem
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -71,8 +82,8 @@ button:hover {
     border: 0.5rem dashed var(--text)
 }
 
-#main {
-    padding-top: 6rem
+.monospace {
+    font-family: monospace;
 }
 
 @media(min-width: 1200px) {

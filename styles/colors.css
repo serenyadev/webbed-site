@@ -38,3 +38,9 @@
     font-family: "RobotoSlab";
     src: url(/assets/fonts/RobotoSlab.ttf) format("truetype");
 }
+
+@font-face {
+    font-family: "JetBrainsMono";
+    font-weight: normal;
+    src: url(/assets/fonts/JetBrainsMono-Medium.ttf) format("truetype");
+}
