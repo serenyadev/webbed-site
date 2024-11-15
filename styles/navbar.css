@@ -1,10 +1,6 @@
 @import url(colors.css);
 
-.navbar {
-    height: 4rem;
-}
-
-.navbar > .container {
+.navbar, .navbar > .container {
     padding: 0;
     display: flex;
     flex-direction: column;
@@ -30,16 +26,16 @@
 .nav-item, .nav-item:visited {
     color: var(--text);
     padding: 1rem 2.5rem;
-    border: .15rem dashed transparent;
+    border: .25rem dashed transparent;
     transition: border-color 0.2s ease-in-out;
 }
 
 .nav-item.active {
-    color: var(--mauve);
+    color: var(--mauve) !important;
 }
 
 .nav-item:hover {
     text-decoration: none !important;
-    color: var(--text) !important;
+    color: var(--text);
     border-color: var(--text);
 }
