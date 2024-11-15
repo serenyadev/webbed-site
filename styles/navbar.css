@@ -26,8 +26,8 @@
 .nav-item, .nav-item:visited {
     color: var(--text);
     font-size: large;
-    padding: 1rem 2.5rem;
-    border: .25rem dashed transparent;
+    padding: 1rem .75rem 2rem 2rem;
+    border-bottom: .25rem dashed transparent;
     transition: border-color 0.2s ease-in-out;
 }
 

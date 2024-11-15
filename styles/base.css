@@ -34,8 +34,19 @@ a, a:visited {
 }
 
 a:hover {
-    color: #b892e8;
+    color: #a583d0;
     text-decoration: underline;
+}
+
+.button {
+    padding: .5rem 1.5rem;
+    border: 5px solid var(--text);
+}
+
+.button.primary {
+    background-color: var(--mauve);
+    border-color: var(--mauve);
+    color: var(--base);
 }
 
 .container {
