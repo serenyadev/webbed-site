@@ -49,12 +49,12 @@ p {
 }
 
 .box {
+    padding: 15px;
     border: 0.5rem dashed var(--text)
 }
 
 #main {
-    padding: 10px 15px;
-    margin-top: 4rem;
+    padding-top: 6rem
 }
 
 .nav-spacer {
