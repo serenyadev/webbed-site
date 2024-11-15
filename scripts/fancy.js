@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     for (let button in document.getElementsByClassName("slideshow_next")) {
-        button.onclick = function () {
+        button.onclick = event => {
             let slideshow = document.getElementById(button.getAttribute("target"));
             let active, next = null, nextActive;
             for(let element in slideshow.children) {
@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             if(next == null) next = slideshow.children[0];
             slideshowNext(slideshow, active, next)
+            event.preventDefault();
         }
     }
 });
