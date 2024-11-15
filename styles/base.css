@@ -1,28 +1,15 @@
-@font-face {
-    font-family: "Tiny5";
-    src: url(/assets/fonts/Tiny5.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
-}
-
-:root {
-    --core: #11111b;
-    --text: #cdd6f4;
-}
+@import url(colors.css);
 
 * {
     box-sizing: border-box;
-    color: var(--text);
 }
 
 body {
     margin: 0;
     min-height: 100vh;
-    background-color: var(--core);
-    font-family: Montserrat, sans-serif;
+    color: var(--text);
+    background-color: var(--crust);
+    font-family: RobotoSlab, sans-serif;
     background-image: url(/assets/images/bg.gif);
     background-attachment: fixed;
     background-size: cover;
@@ -37,6 +24,11 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+
 }
 
 .container {
