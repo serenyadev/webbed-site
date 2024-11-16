@@ -83,7 +83,7 @@ button:hover {
 }
 
 .monospace {
-    font-family: monospace;
+    font-family: JetBrainsMono, monospace;
 }
 
 @media(min-width: 1200px) {
