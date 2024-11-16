@@ -84,6 +84,7 @@ button:hover {
 
 .monospace {
     font-family: JetBrainsMono, monospace;
+    font-weight: lighter;
 }
 
 @media(min-width: 1200px) {

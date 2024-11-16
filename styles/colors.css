@@ -1,3 +1,11 @@
+@import url(assets/fonts/JetBrainsMono/font.css);
+@import url(assets/fonts/RobotoSlab/font.css);
+
+@font-face {
+    font-family: 'Tiny5';
+    src: url(/assets/fonts/Tiny5.ttf) format('truetype');
+}
+
 :root {
     --rosewater: #f5e0dc;
     --flamingo: #f2cdcd;
@@ -22,25 +30,4 @@
     --base: #1e1e2e;
     --mantle: #181825;
     --crust: #11111b;
-}
-
-@font-face {
-    font-family: "Tiny5";
-    src: url(/assets/fonts/Tiny5.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "Montserrat";
-    src: url(/assets/fonts/Montserrat-VariableFont_wght.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "RobotoSlab";
-    src: url(/assets/fonts/RobotoSlab.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: "JetBrainsMono";
-    font-weight: normal;
-    src: url(/assets/fonts/JetBrainsMono-Regular.ttf) format("truetype");
 }
