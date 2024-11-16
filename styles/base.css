@@ -25,7 +25,7 @@ body {
 }
 
 #main {
-    padding-top: 6rem
+    margin-top: 3rem
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -101,5 +101,11 @@ button:hover {
 @media(min-width: 1600px) {
     .container {
         max-width: 960px;
+    }
+}
+
+@media(min-height: 450px) {
+    #main {
+        margin-top: 6rem;
     }
 }
