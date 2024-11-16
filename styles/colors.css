@@ -1,5 +1,5 @@
-@import url(assets/fonts/JetBrainsMono/font.css);
-@import url(assets/fonts/RobotoSlab/font.css);
+@import url(/assets/fonts/JetBrainsMono/font.css);
+@import url(/assets/fonts/RobotoSlab/font.css);
 
 @font-face {
     font-family: 'Tiny5';
