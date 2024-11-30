@@ -13,6 +13,15 @@
     display: none;
 }
 
+label[for="nav-check"] {
+    display: block;
+    margin-left: auto;
+}
+
+#nav-check {
+    display: none;
+}
+
 #nav-check:checked ~ .nav-menu {
     display: flex;
     flex-direction: column;
@@ -47,9 +56,5 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-    }
-
-    #nav-check {
-        display: none !important;
     }
 }
