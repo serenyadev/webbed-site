@@ -91,6 +91,20 @@ button:hover {
     font-family: Tiny5, sans-serif;
 }
 
+.align-center {
+    text-align: center;
+}
+
+.pfp {
+    display: block;
+    width: 100%;
+    max-width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
 @media(min-width: 1200px) {
     .container {
         max-width: 720px;
