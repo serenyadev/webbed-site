@@ -15,8 +15,9 @@
 
 label[for="nav-check"] {
     display: block;
-    margin-left: auto;
-    font-size: large;
+    margin-right: auto;
+    font-size: 3rem;
+    padding: .25rem;
 }
 
 #nav-check {
