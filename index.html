@@ -5,6 +5,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/styles/main.css">
+        <style>
+            #grid {
+                display: grid;
+                grid-template-areas:
+                "links main main"
+                "blog blog blog";
+                grid-gap: 1rem;
+            }
+
+            #links {
+                grid-area: links;
+            }
+
+            #main {
+                grid-area: main;
+            }
+
+            #blog {
+                grid-area: blog;
+            }
+        </style>
     </head>
     <body dir="ltr">
         <div class="navbar">
@@ -13,16 +34,30 @@
                 <label for="nav-check"><span class="hn hn-bullet-list"></span></label>
                 <div class="nav-menu">
                     <a class="nav-item active" href="/">Home</a>
+                    <a class="nav-item" href="/me">Pronouns n stuff</a>
                     <a class="nav-item" href="/projects">Projects</a>
                 </div>
             </div>
         </div>
-        <div id="main">
-            <div class="box container">
-                <h1>sery webbed site</h1>
-                <p>
-                    Hii im sery, a silly cat that codes sometimes and enjoys music. Welcome to this mess :3
-                </p>
+        <div id="content">
+            <div class="container">
+                <div id="grid">
+                    <div id="links" class="box">
+                        <h3>Links to my stuff:</h3>
+                        <ul class="no-dot">
+                            <li><a href="https://codeberg.org/sery">Codeberg</a></li>
+                            <li><a href="">Tumblr</a></li>
+                        </ul>
+                    </div>
+                    <div id="main" class="box">
+                        <h2>Welcome to sery's webbed site</h2>
+                        <p>
+                            Haii im sery, dumbass cat that codes and enjoys music alot.
+                            You can find projects and random shit i say here :3
+                        </p>
+                    </div>
+                    <div id="blog"></div>
+                </div>
             </div>
         </div>
         <div id="footer">

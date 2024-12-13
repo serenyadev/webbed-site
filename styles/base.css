@@ -21,9 +21,10 @@ body {
 
 #footer {
     margin-top: auto;
+    padding-top: 10px;
 }
 
-#main {
+#content {
     margin-top: 3rem
 }
 
@@ -116,6 +117,11 @@ button:hover {
     max-height: 55px;
 }
 
+ul.no-dot {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 @media(min-width: 1200px) {
     .container {
         max-width: 720px;
@@ -135,7 +141,7 @@ button:hover {
 }
 
 @media(min-height: 450px) {
-    #main {
+    #content {
         margin-top: 6rem;
     }
 }
