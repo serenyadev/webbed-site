@@ -102,8 +102,8 @@ button:hover {
 .pfp {
     display: block;
     width: 100%;
-    max-width: 48px;
-    border-radius: 50%;
+    max-width: 72px;
+    border-radius: 15px;
 }
 
 .friendlink {
