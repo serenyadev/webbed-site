@@ -31,3 +31,63 @@
     --mantle: #181825;
     --crust: #11111b;
 }
+
+.rosewater {
+    color: var(--rosewater);
+}
+
+.flamingo {
+    color: var(--flamingo);
+}
+
+.pink {
+    color: var(--pink);
+}
+
+.mauve {
+    color: var(--mauve);
+}
+
+.red {
+    color: var(--red);
+}
+
+.maroon {
+    color: var(--maroon);
+}
+
+.peach {
+    color: var(--peach);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.green {
+    color: var(--green);
+}
+
+.teal {
+    color: var(--teal);
+}
+
+.sky {
+    color: var(--sky);
+}
+
+.sapphire {
+    color: var(--sapphire);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.lavender {
+    color: var(--lavender);
+}
+
+.subtext {
+    color: var(--subtexter);
+}

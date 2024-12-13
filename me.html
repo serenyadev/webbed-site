@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>serenitie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <style>
+        #me-container {
+            display: grid;
+            grid-template-areas:
+                    "pfp pfp pfp pfp pfp pfp"
+                    "desc desc desc flags flags flags"
+                    "prns prns names names compl compl"
+                    "prns prns names names compl compl";
+            grid-gap: 1rem;
+        }
+
+        #profile {
+            grid-area: pfp;
+        }
+
+        #description {
+            grid-area: desc;
+        }
+
+        #pronouns {
+            grid-area: prns;
+        }
+
+        #names {
+            grid-area: names;
+        }
+
+        #words {
+            grid-area: word;
+        }
+
+        ul.no-dot {
+            list-style-type: none;
+        }
+
+    </style>
+</head>
+<body dir="ltr">
+<div class="navbar">
+    <div class="container">
+        <div class="nav-menu">
+            <a class="nav-item" href="/">Home</a>
+            <a class="nav-item" href="/projects">Projects</a>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <div class="box container">
+        <div id="me-container">
+            <div id="profile">
+
+            </div>
+            <div id="description">
+                <p>
+                    Im a dumbass cat more will go here later
+                </p>
+            </div>
+            <div id="pronouns">
+                <h2>Pronouns :3</h2>
+                <ul class="no-dot">
+                    <li class="pink"><span class="hn-heart"></span> they/them</li>
+                    <li><span class="hn-thumbsup"></span> she/her</li>
+                </ul>
+            </div>
+            <div id="names">
+                <h2>Names :3</h2>
+                <ul class="no-dot">
+                    <li>Serena/Serenity/Sery</li>
+                    <li>Kath</li>
+                </ul>
+            </div>
+            <div id="words">
+                <h2>Other things u can call me :3</h2>
+                <ul class="no-dot">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <!--TODO: Site banners -->
+    </div>
+</div>
+</body>
+</html>
