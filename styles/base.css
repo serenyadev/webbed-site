@@ -77,6 +77,12 @@ button:hover {
     max-width: 600px
 }
 
+.container-full {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
 .box {
     padding: 15px;
     border: 0.5rem dashed var(--text)
