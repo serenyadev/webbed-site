@@ -18,6 +18,14 @@
 
         #profile {
             grid-area: pfp;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        #profile > div {
+            justify-self: stretch;
         }
 
         #description {
@@ -52,7 +60,10 @@
     <div class="box container">
         <div id="me-container">
             <div id="profile">
-
+                <img class="pfp" src="assets/images/pfp.jpeg" alt="ur mom <3">
+                <div>
+                    <h1>Me :3</h1>
+                </div>
             </div>
             <div id="description">
                 <p>
@@ -69,8 +80,10 @@
             <div id="names">
                 <h2>Names :3</h2>
                 <ul class="no-dot">
-                    <li><span class="hn hn-heart"></span> Serena/Serenity/Sery</li>
-                    <li><span class="hn hn-heart"></span> Kath</li>
+                    <li class="pink"><span class="i hn hn-heart"></span> Serenity</li>
+                    <li class="pink"><span class="i hn hn-heart"></span> Sery</li>
+                    <li><span class="i hn hn-thumbsup"></span> Serena</li>
+                    <li><span class="i hn hn-thumbsup"></span> Kath</li>
                 </ul>
             </div>
             <div id="words">

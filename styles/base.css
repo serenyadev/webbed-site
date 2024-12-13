@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: Tiny5, sans-serif;
 }
 
-p {
+p, ul, ol, dl {
     margin-top: 0;
     margin-bottom: .5rem
 }
@@ -104,7 +104,7 @@ button:hover {
 .pfp {
     display: block;
     width: 100%;
-    max-width: 120px;
+    max-width: 48px;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
@@ -120,6 +120,10 @@ button:hover {
 ul.no-dot {
     list-style-type: none;
     padding-left: 0;
+}
+
+.i {
+    line-height: 1.4;
 }
 
 @media(min-width: 1200px) {
