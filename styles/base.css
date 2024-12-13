@@ -72,7 +72,7 @@ button:hover {
     margin-right: auto;
     margin-left: auto;
     width: 100%;
-    max-width: 660px
+    max-width: 690px
 }
 
 .container-full {
@@ -122,19 +122,19 @@ ul.no-dot {
 
 @media(min-width: 1200px) {
     .container {
-        max-width: 780px;
+        max-width: 810px;
     }
 }
 
 @media(min-width: 1440px) {
     .container {
-        max-width: 900px;
+        max-width: 930px;
     }
 }
 
 @media(min-width: 1600px) {
     .container {
-        max-width: 1020px;
+        max-width: 1050px;
     }
 }
 
