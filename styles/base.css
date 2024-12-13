@@ -29,12 +29,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-    margin-bottom: .5rem;
     font-family: Tiny5, sans-serif;
 }
 
-p, ul, ol, dl {
+p, ul, ol, dl, h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
     margin-bottom: .5rem
 }
@@ -119,24 +117,24 @@ ul.no-dot {
 }
 
 .i {
-    line-height: 1.4;
+    line-height: 1.4 !important;
 }
 
 @media(min-width: 1200px) {
     .container {
-        max-width: 720px;
+        max-width: 780px;
     }
 }
 
 @media(min-width: 1440px) {
     .container {
-        max-width: 840px;
+        max-width: 900px;
     }
 }
 
 @media(min-width: 1600px) {
     .container {
-        max-width: 960px;
+        max-width: 1020px;
     }
 }
 
