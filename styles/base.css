@@ -106,10 +106,14 @@ button:hover {
     border-radius: 15px;
 }
 
-.friendlink {
+.friendlink > img {
     width: auto;
     max-height: 55px;
-    margin-right: .5rem;
+}
+
+.friendlink {
+    vertical-align: middle;
+    margin-right: .3rem;
 }
 
 ul.no-dot {
