@@ -37,6 +37,10 @@ p, ul, ol, dl, h1, h2, h3, h4, h5, h6 {
     margin-bottom: .5rem
 }
 
+.caption {
+    margin-bottom: 0;
+}
+
 a, a:visited {
     text-decoration: none;
     color: var(--mauve);
@@ -102,7 +106,7 @@ button:hover {
 .pfp {
     display: block;
     width: 100%;
-    max-width: 72px;
+    max-width: 90px;
     border-radius: 15px;
 }
 
