@@ -1,7 +1,7 @@
 .member {
     display: grid;
     grid-template-areas:
-                    "pfp pfp pfp pfp pfp pfp"
+                    "pfp pfp pfp flags flags flags"
                     "desc desc desc flags flags flags"
                     "names names prns prns compl compl";
     grid-gap: 1rem;
