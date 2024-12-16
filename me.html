@@ -5,48 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
-    <style>
-        .member {
-            display: grid;
-            grid-template-areas:
-                    "pfp pfp pfp pfp pfp pfp"
-                    "desc desc desc flags flags flags"
-                    "names names prns prns compl compl";
-            grid-gap: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .profile {
-            grid-area: pfp;
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            flex-wrap: nowrap;
-        }
-
-        .profile > div {
-            justify-self: stretch;
-            padding-left: 1rem;
-            padding-right: 15px;
-        }
-
-        .description {
-            grid-area: desc;
-        }
-
-        .pronouns {
-            grid-area: prns;
-        }
-
-        .names {
-            grid-area: names;
-        }
-
-        .words {
-            grid-area: compl;
-        }
-
-    </style>
+    <link rel="stylesheet" href="/styles/pronouns.css">
 </head>
 <body dir="ltr">
 <div class="navbar">
@@ -64,13 +23,30 @@
             <div class="profile">
                 <img class="pfp" src="assets/images/sery.jpeg" alt="ur mom <3">
                 <div>
-                    <h1>Serenity</h1>
+                    <h1 class="caption">Serenity</h1>
                 </div>
             </div>
             <div class="description">
                 <p>
                     Most active fronter, silly cat and rust coder
                 </p>
+            </div>
+            <div class="flags">
+                <div>
+                    <img src="/assets/images/flags/non-binary.png" class="flag" alt="Non Binary"> Non Binary
+                </div>
+                <div>
+                    <img src="/assets/images/flags/Abrosexual.png" class="flag" alt="Abrosexual"> Demisexual
+                </div>
+                <div>
+                    <img src="/assets/images/flags/demi.png" class="flag" alt="Demisexual"> Demisexual
+                </div>
+                <div>
+                    <img src="/assets/images/flags/Demiromantic.png" class="flag" alt="Demiromantic"> Demiromantic
+                </div>
+                <div>
+                    <img src ="/assets/images/flags/polyamogus.png" class="flag" alt="Polyamorous"> Polyamorous
+                </div>
             </div>
             <div class="names">
                 <h2>My Names :3</h2>

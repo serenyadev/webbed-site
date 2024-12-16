@@ -90,4 +90,5 @@
 
 .subtext {
     color: var(--subtexter);
+    opacity: 0.96;
 }

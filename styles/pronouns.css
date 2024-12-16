@@ -1,0 +1,57 @@
+.member {
+    display: grid;
+    grid-template-areas:
+                    "pfp pfp pfp pfp pfp pfp"
+                    "desc desc desc flags flags flags"
+                    "names names prns prns compl compl";
+    grid-gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.profile {
+    grid-area: pfp;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.profile > div {
+    justify-self: stretch;
+    padding-left: 1rem;
+    padding-right: 15px;
+}
+
+.description {
+    grid-area: desc;
+}
+
+.pronouns {
+    grid-area: prns;
+}
+
+.names {
+    grid-area: names;
+}
+
+.words {
+    grid-area: compl;
+}
+
+.flags {
+    grid-area: flags;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flags > div {
+    padding: 0.25rem;
+}
+
+.flag {
+    height: 32px;
+    margin-right: .5rem;
+    border-radius: 2px;
+}
