@@ -40,18 +40,23 @@
 
 .flags {
     grid-area: flags;
+}
+
+.flags-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.flags > div {
+.flags-list > div {
     padding: 0.25rem;
+    flex: 0 1 content;
 }
 
 .flag {
     height: 1.2rem;
     margin-right: .25rem;
     border-radius: 2px;
+    vertical-align: middle;
 }
