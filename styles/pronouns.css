@@ -4,6 +4,7 @@
                     "pfp pfp pfp pfp pfp pfp"
                     "desc desc desc flags flags flags"
                     "names names prns prns compl compl";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
     margin-bottom: 1rem;
 }
