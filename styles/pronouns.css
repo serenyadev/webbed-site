@@ -9,17 +9,17 @@
     margin-bottom: 1rem;
 }
 
-@media (max-width: 530px) {
-    .member {
-        grid-template-areas: "pfp pfp"
-                    "desc flags"
-                    "names names"
-                    "prns prns"
-                    "compl compl";
-    }
-}
+/*@media (max-width: 530px) {*/
+/*    .member {*/
+/*        grid-template-areas: "pfp pfp"*/
+/*                    "desc flags"*/
+/*                    "names names"*/
+/*                    "prns prns"*/
+/*                    "compl compl";*/
+/*    }*/
+/*}*/
 
-@media (max-width: 450px) {
+@media (max-width: 530px) {
     .member {
         grid-template-areas: "pfp"
                              "flags"
