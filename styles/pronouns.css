@@ -22,8 +22,8 @@
 @media (max-width: 400px) {
     .member {
         grid-template-areas: "pfp"
-                             "desc"
                              "flags"
+                             "desc"
                              "names"
                              "prns"
                              "compl";
