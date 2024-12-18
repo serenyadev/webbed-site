@@ -53,7 +53,7 @@ label[for="nav-check"] {
     border-color: var(--text);
 }
 
-@media (min-width: 350px) {
+@media (min-width: 500px) {
     .nav-menu {
         display: flex;
         flex-direction: row !important;
