@@ -4,9 +4,30 @@
                     "pfp pfp pfp pfp pfp pfp"
                     "desc desc desc flags flags flags"
                     "names names prns prns compl compl";
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
     grid-gap: 1rem;
     margin-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+    .member {
+        grid-template-areas: "pfp pfp"
+                    "desc flags"
+                    "names names"
+                    "prns prns"
+                    "compl compl";
+    }
+}
+
+@media (max-width: 400px) {
+    .member {
+        grid-template-areas: "pfp"
+                             "desc"
+                             "flags"
+                             "names"
+                             "prns"
+                             "compl";
+    }
 }
 
 .profile {
