@@ -18,6 +18,7 @@ label[for="nav-check"] {
     margin-right: auto;
     font-size: 3rem;
     padding: .25rem;
+    cursor: pointer;
 }
 
 #nav-check {
