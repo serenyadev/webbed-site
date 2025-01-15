@@ -92,3 +92,7 @@
     color: var(--subtexter) !important;
     opacity: 0.85;
 }
+
+.dark {
+    color: var(--base) !important;
+}
