@@ -88,6 +88,10 @@
     color: var(--lavender) !important;
 }
 
+.text {
+    color: var(--text) !important;
+}
+
 .subtext {
     color: var(--subtexter) !important;
     opacity: 0.85;
