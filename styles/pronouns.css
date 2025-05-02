@@ -32,17 +32,17 @@
 
 .profile {
     grid-area: pfp;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: nowrap;
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: center;*/
+    /*flex-wrap: nowrap;*/
 }
 
-.profile > div {
-    justify-self: stretch;
-    padding-left: 1rem;
-    padding-right: 15px;
-}
+/*.profile > div {*/
+/*    justify-self: stretch;*/
+/*    padding-left: 1rem;*/
+/*    padding-right: 15px;*/
+/*}*/
 
 .description {
     grid-area: desc;
