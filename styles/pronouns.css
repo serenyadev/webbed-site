@@ -65,13 +65,15 @@
 }
 
 .flags-list {
+    list-style: none;
+    padding-left: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.flags-list > div {
+.flags-list > li {
     padding: 0.25rem;
     flex: 0 1 content;
 }
