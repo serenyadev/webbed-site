@@ -3,7 +3,8 @@
     grid-template-areas:
                     "pfp pfp pfp pfp pfp pfp"
                     "desc desc desc flags flags flags"
-                    "names names prns prns compl compl";
+                    "names names prns prns compl compl"
+                    "legend legend legend legend legend legend";
     grid-auto-columns: 1fr;
     grid-gap: 1rem;
     margin-bottom: 1rem;
@@ -64,6 +65,19 @@
     grid-area: flags;
 }
 
+.legend {
+    grid-area: legend;
+}
+
+.legend-content {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 .flags-list {
     padding-left: 0;
     list-style: none;
@@ -73,7 +87,7 @@
     flex-wrap: wrap;
 }
 
-.flags-list > li {
+.flags-list > li, .legend-content > li {
     display: block;
     padding: 0.25rem;
     flex: 0 1 content;
