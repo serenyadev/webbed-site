@@ -144,7 +144,8 @@ ul.no-dot {
     background-color: var(--base);
     font-size: small;
     padding: 0.35rem;
-    font-weight: normal;
+    font-weight: bold;
+    text-wrap: nowrap;
     z-index: 300;
 }
 
