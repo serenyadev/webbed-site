@@ -100,7 +100,7 @@ button:hover {
 }
 
 .default {
-    font-family: RobotoSlab monospace;
+    font-family: RobotoSlab, monospace;
     font-weight: normal;
 }
 
