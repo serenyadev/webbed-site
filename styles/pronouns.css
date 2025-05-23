@@ -75,13 +75,15 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .legend-content > li {
     display: block;
-    padding: 0.25rem 0.75rem;
+    padding: 0.25rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
     flex: 0 1 content;
 }
 
