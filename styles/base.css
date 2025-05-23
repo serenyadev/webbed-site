@@ -132,10 +132,26 @@ ul.no-dot {
 
 .tooltip {
     position: absolute;
-    right: 50%;
-    bottom: 0;
+    left: 50%;
+    bottom: -.1rem;
+    transform: translate(-50%, 100%);
     border-radius: 2px;
     background-color: var(--mantle);
+    font-family: RobotoSlab, monospace;
+    font-size: .5rem;
+    padding: 0.15rem;
+}
+
+.tooltip:before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.has-tooltip {
+    position: relative;
 }
 
 .has-tooltip > .tooltip {
