@@ -129,6 +129,23 @@ ul.no-dot {
     line-height: 1.4 !important;
 }
 
+
+.tooltip {
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    border-radius: 2px;
+    background-color: var(--mantle);
+}
+
+.has-tooltip > .tooltip {
+    display: none;
+}
+
+.has-tooltip:hover > .tooltip {
+    display: block;
+}
+
 @media(min-width: 1200px) {
     .container {
         max-width: 810px;
