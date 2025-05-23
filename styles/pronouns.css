@@ -67,6 +67,7 @@
 
 .legend {
     grid-area: legend;
+    font-size: small;
 }
 
 .legend-content {
@@ -80,7 +81,7 @@
 
 .legend-content > li {
     display: block;
-    padding: 0.25rem 2rem;
+    padding: 0.25rem 0.75rem;
     flex: 0 1 content;
 }
 
