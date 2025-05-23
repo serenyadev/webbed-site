@@ -78,6 +78,12 @@
     flex-wrap: wrap;
 }
 
+.legend-content > li {
+    display: block;
+    padding: 0.25rem 2rem;
+    flex: 0 1 content;
+}
+
 .flags-list {
     padding-left: 0;
     list-style: none;
@@ -87,7 +93,7 @@
     flex-wrap: wrap;
 }
 
-.flags-list > li, .legend-content > li {
+.flags-list > li {
     display: block;
     padding: 0.25rem;
     flex: 0 1 content;
