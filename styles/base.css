@@ -146,7 +146,7 @@ ul.no-dot {
     padding: 0.35rem;
     font-weight: bold;
     text-wrap: nowrap;
-    z-index: 300;
+    z-index: 299;
 }
 
 .tooltip:after {
@@ -156,9 +156,9 @@ ul.no-dot {
     left: 50%;
     width: .6rem;
     height: .6rem;
-    transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, 50%) rotate(45deg);
     background-color: var(--base);
-    z-index: 299;
+    z-index: 300;
 }
 
 .has-tooltip {
