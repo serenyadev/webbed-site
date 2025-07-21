@@ -45,6 +45,7 @@ hr {
     border-top-color: var(--text);
     border-top-width: 0.25rem;
     border-top-style: dashed;
+    margin-bottom: 1rem;
 }
 
 hr.solid {
@@ -86,6 +87,10 @@ button.primary, .button.primary {
 
 button:hover {
     cursor: pointer;
+}
+
+.spaced {
+    margin-bottom: 2.5rem;
 }
 
 .container {
